@@ -15,4 +15,5 @@ String regisrterUser({
   String message =
       'User registered successfully! \nE-mail:$email \nPassword: $password \nPhone: $phone';
   return message;
+
 }
