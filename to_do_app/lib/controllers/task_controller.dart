@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/task_model.dart';
 
 class TaskController extends ChangeNotifier {
-  List<Task> _tasks = [];
+  final List<Task> _tasks = [];
   int _filterIndex = 0;
 
   List<Task> get tasks {
